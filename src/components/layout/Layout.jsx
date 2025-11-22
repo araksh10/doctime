@@ -1,17 +1,4 @@
 import React from 'react';
-import {gql} from "@apollo/client";
-import {useQuery} from "@apollo/client/react/compiled";
-
-const GET_DOCTOR = gql `
-    query doctor (id){
-        doctor (id: "6919ced58208f509ae5fbf3a") {
-            id
-            name
-            degree
-            bmdc_reg
-        }
-    }
-`
 
 const Layout = () => {
     return (
